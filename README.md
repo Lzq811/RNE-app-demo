@@ -2,18 +2,25 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Init Project
+
+Init Project Command
+```bash
+yarn crate expo app-project-name
+```
+
 ## Get started
 
 1. Install dependencies
 
    ```bash
-   npm install
+   yarn add
    ```
 
 2. Start the app
 
    ```bash
-    npx expo start
+   yarn start
    ```
 
 In the output, you'll find options to open the app in a
