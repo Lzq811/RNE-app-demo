@@ -23,25 +23,16 @@ yarn crate expo app-project-name
    yarn start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
+3. Use the Router
+   expo 已经内置 expo-router, 无需再次安装了。使用方式参考[Expo Router](https://docs.expo.dev/router/reference/authentication/)
+4. Use UI Store
+   使用 [react-native-paper](https://callstack.github.io/react-native-paper/) UI 库 [Expo support UI Libraries](https://docs.expo.dev/ui-programming/user-interface-libraries/)
+   ```bash
+   yarn add react-native-paper
+   ```
+   
+5. 环境变量
+6. store 状态管理 Redux
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
